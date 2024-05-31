@@ -1,0 +1,94 @@
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .pricing-package {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-package h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-package p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .pricing-package ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pricing-package ul li {
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 2em;
+    color: #007bff;
+    margin: 20px 0;
+  }
+  
+  .select-package {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .select-package:hover {
+    background: #0056b3;
+  }
+  
+  .popular {
+    border: 2px solid #007bff;
+  }
+  
+  .add-ons, .special-offers, .testimonials, .faq {
+    margin: 20px 0;
+  }
+  
+  .add-ons h3, .special-offers h3, .testimonials h3, .faq h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .add-ons ul, .faq h4 {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .add-ons ul li, .faq h4 {
+    margin: 10px 0;
+  }
+  
+  .testimonials blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #007bff;
+    margin: 20px 0;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  .testimonials cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #666;
+    margin-top: 10px;
+  }
+  

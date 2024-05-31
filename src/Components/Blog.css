@@ -1,0 +1,33 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-post {
+    margin-bottom: 40px;
+  }
+  
+  .blog-post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .blog-post ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-post ul li {
+    margin-bottom: 10px;
+  }
+  
+  .blog-post ul li strong {
+    font-weight: bold;
+  }
+  
