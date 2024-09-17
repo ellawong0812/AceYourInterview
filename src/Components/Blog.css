@@ -1,33 +1,46 @@
 .blog-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .blog-post {
-    margin-bottom: 40px;
-  }
-  
-  .blog-post h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .blog-post p {
-    font-size: 1em;
-    line-height: 1.6;
-  }
-  
-  .blog-post ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .blog-post ul li {
-    margin-bottom: 10px;
-  }
-  
-  .blog-post ul li strong {
-    font-weight: bold;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.blog-post {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
+.blog-post h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.blog-post ul {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post li {
+  list-style: disc;
+  margin-left: 20px;
+}

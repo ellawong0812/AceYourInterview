@@ -70,6 +70,74 @@ function Blog() {
           </li>
         </ul>
       </div>
+      <div className="blog-post">
+        <h2>Crafting the Perfect Resume: Tips and Examples</h2>
+        <p>
+          Your resume is often the first impression you make on a potential
+          employer, so it's essential to ensure it effectively showcases your
+          skills, experiences, and qualifications. In this blog post, we'll
+          explore key tips and examples to help you craft a compelling and
+          professional resume that stands out from the crowd.
+        </p>
+        <ul>
+          <li>
+            <strong>Tailor Your Resume to the Job:</strong> Customize your
+            resume for each job application by highlighting relevant skills,
+            experiences, and achievements that align with the job
+            requirements...
+          </li>
+          <li>
+            <strong>Use a Clear and Professional Format:</strong> Choose a clean
+            and easy-to-read format for your resume, with clear headings, bullet
+            points, and concise language...
+          </li>
+          <li>
+            <strong>Highlight Key Achievements:</strong> Showcase your
+            accomplishments and contributions in previous roles by quantifying
+            results and outcomes where possible...
+          </li>
+          <li>
+            <strong>Include Relevant Keywords:</strong> Incorporate relevant
+            keywords and phrases from the job description into your resume to
+            ensure it passes through applicant tracking systems (ATS) and
+            reaches the hands of hiring managers...
+          </li>
+        </ul>
+      </div>
+      <div className="blog-post">
+        <h2>Crafting the Perfect Resume: Tips and Examples</h2>
+        <p>
+          Your resume is often the first impression you make on a potential
+          employer, so it's essential to ensure it effectively showcases your
+          skills, experiences, and qualifications. In this blog post, we'll
+          explore key tips and examples to help you craft a compelling and
+          professional resume that stands out from the crowd.
+        </p>
+        <ul>
+          <li>
+            <strong>Tailor Your Resume to the Job:</strong> Customize your
+            resume for each job application by highlighting relevant skills,
+            experiences, and achievements that align with the job
+            requirements...
+          </li>
+          <li>
+            <strong>Use a Clear and Professional Format:</strong> Choose a clean
+            and easy-to-read format for your resume, with clear headings, bullet
+            points, and concise language...
+          </li>
+          <li>
+            <strong>Highlight Key Achievements:</strong> Showcase your
+            accomplishments and contributions in previous roles by quantifying
+            results and outcomes where possible...
+          </li>
+          <li>
+            <strong>Include Relevant Keywords:</strong> Incorporate relevant
+            keywords and phrases from the job description into your resume to
+            ensure it passes through applicant tracking systems (ATS) and
+            reaches the hands of hiring managers...
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

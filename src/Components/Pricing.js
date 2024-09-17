@@ -1,17 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Pricing.css";
+import { Link } from "react-router-dom";
+import CheckOut from "./CheckOut";
 
 function Pricing() {
+  const [selectedPackage, setSelectedPackage] = useState("Basic Package");
+
+  const handlePackageSelection = (packageValue) => {
+    setSelectedPackage(packageValue);
+  };
   return (
-    <div>
-      <div>
-        <h2>Pricing</h2>
-        <p>
-          We offer competitive pricing for our services. Check out our pricing
-          page for details on our packages and find the one that best suits your
-          needs.
-        </p>
-      </div>
+    <div className="container">
       <div class="pricing-container">
         <div class="pricing-package">
           <h2>Basic Package</h2>
@@ -22,7 +21,14 @@ function Pricing() {
             <li>Email support</li>
           </ul>
           <div class="price">$99</div>
-          <button class="select-package">Choose Basic</button>
+          <Link to="/CheckOut" state={{ selectedPackage }}>
+            <button
+              class="select-package"
+              onClick={() => handlePackageSelection("Basic Package")}
+            >
+              Choose Basic
+            </button>
+          </Link>
         </div>
         <div class="pricing-package popular">
           <h2>Standard Package</h2>
@@ -34,7 +40,14 @@ function Pricing() {
             <li>Email and phone support</li>
           </ul>
           <div class="price">$249</div>
-          <button class="select-package">Choose Standard</button>
+          <Link to="/CheckOut" state={{ selectedPackage }}>
+            <button
+              class="select-package"
+              onClick={() => handlePackageSelection("Standard Package")}
+            >
+              Choose Standard
+            </button>
+          </Link>
         </div>
         <div class="pricing-package">
           <h2>Premium Package</h2>
@@ -46,11 +59,18 @@ function Pricing() {
             <li>Priority email and phone support</li>
           </ul>
           <div class="price">$399</div>
-          <button class="select-package">Choose Premium</button>
+          <Link to="/CheckOut" state={{ selectedPackage }}>
+            <button
+              class="select-package"
+              onClick={() => handlePackageSelection("Premium Package")}
+            >
+              Choose Premium
+            </button>
+          </Link>
         </div>
       </div>
       <div class="special-offers">
-        <h3>Special Offers</h3>
+        <h3>Special Offers:</h3>
         <p>
           We offer a 10% discount for students. Use code 'SUCCESS' at checkout.
         </p>

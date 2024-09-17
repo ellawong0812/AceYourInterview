@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import background from "../Assets/background.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -8,7 +9,9 @@ function Home() {
       <div className="content">
         <h1>Ace Every Interview, Secure Your Dream Job</h1>
         <h3>Your Success Starts with Us</h3>
-        <button>VIEW SERVICES</button>
+        <Link to="/Pricing">
+          <button>VIEW SERVICES</button>
+        </Link>
       </div>
     </div>
   );
