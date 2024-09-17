@@ -1,0 +1,33 @@
+.checkout-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .checkout-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .selectedPackage{
+    color:black;
+    font-weight: bold;
+  }
