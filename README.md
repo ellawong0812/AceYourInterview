@@ -11,11 +11,13 @@ Leaderboard: Users can view their high scores and compete against others on a cu
 Modes: The game offers different difficulty levels or modes, allowing users to adjust the challenge based on their skill level.
 Timer: A timer keeps track of the user's typing time.
 Reset Button: Users can reset the game at any time to start a new round.
+
 Technologies Used:
 
 HTML: Structures the content and layout of the game.
 CSS: Styles the game's appearance and user interface.
 JavaScript: Handles the game's logic, including tracking time, calculating WPM, updating the leaderboard, and implementing different game modes.
+
 Benefits:
 
 Improved Typing Skills: Regular practice with this game can significantly enhance typing speed and accuracy.
